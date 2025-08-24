@@ -1,6 +1,6 @@
 import { useState } from "react";
-import NoteForm from "./components/NoteForm";
-import NoteCard from "./components/NoteCard";
+import NoteForm from "./Components/NoteForm";
+import NoteCard from "./Components/NoteCard";
 
 export default function App() {
     const [notes, setNotes] = useState([]);
